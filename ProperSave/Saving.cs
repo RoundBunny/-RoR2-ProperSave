@@ -22,7 +22,7 @@ namespace ProperSave
             On.RoR2.Run.BeginStage += StageOnStageStartGlobal;
 
             //Delete save file when run is over
-            Run.onServerGameOver += RunOnServerGameOver;
+            //Run.onServerGameOver += RunOnServerGameOver;
 
             //Save stage RNG before it changes
             On.RoR2.Run.GenerateStageRNG += RunGenerateStageRNG;
